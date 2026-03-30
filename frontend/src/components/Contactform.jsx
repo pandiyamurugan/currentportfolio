@@ -159,7 +159,8 @@ function Contactform() {
   );
 }
 
-/* STYLES */
+
+
 
 const inputStyle = {
   borderRadius: "30px",

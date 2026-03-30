@@ -32,17 +32,25 @@ function About() {
             </p>
 
             <p style={{color:"white"}}>
-              Passionate about creating clean UI, writing maintainable code, 
-              and delivering high-quality user experiences.
+             Passionate about building clean and responsive user interfaces, writing maintainable code, and collaborating effectively with backend systems to deliver high-quality, scalable web applications. Experienced in developing full-stack projects using the MERN stack with real-world implementation.
             </p>
 
             
-            <div className="mt-3">
-              <span className="badge bg-primary me-2">React</span>
-              <span className="badge bg-secondary me-2">Node.js</span>
-              <span className="badge bg-success me-2">MongoDB</span>
-              <span className="badge bg-warning text-dark">Next.js</span>
-            </div>
+           <div className="d-flex flex-wrap gap-2 mt-2 mb-2">
+
+  <span className="skill-badge">React.js</span>
+  <span className="skill-badge">Next.js</span>
+  <span className="skill-badge">Redux</span>
+  <span className="skill-badge">JavaScript</span>
+
+  <span className="skill-badge">Node.js</span>
+  <span className="skill-badge">Express.js</span>
+  <span className="skill-badge">MongoDB</span>
+
+  <span className="skill-badge">Bootstrap</span>
+  <span className="skill-badge">Tailwind CSS</span>
+
+</div>
             </div>
            
           </div>

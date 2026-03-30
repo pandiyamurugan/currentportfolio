@@ -1,5 +1,5 @@
-import React, { useState,useEffect } from "react";
-import Navbar from "./components/Navbar";
+import React, { useEffect } from "react";
+
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -23,16 +23,13 @@ function App() {
    
     AOS.refresh();
   }, []);
-  const [theme, setTheme] = useState("dark");
 
-  const toggleTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-    document.body.classList.toggle("light");
-  };
+
+
 
   return (
     <>
-      <Navbar toggleTheme={toggleTheme} />
+     
       <Hero />
       <About />
       <Skills />

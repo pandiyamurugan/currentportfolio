@@ -98,9 +98,6 @@ export default function ProjectsSwiper() {
 </SwiperSlide>
           ))}
 
-          {/* Navigation Arrows */}
-          {/* <div className="swiper-button-prev text-white"></div>
-          <div className="swiper-button-next text-white"></div> */}
         </Swiper>
       </div>
     </div>
